@@ -28,3 +28,36 @@ See **`How to Contribute`** for detailed guidelines.
 
 ## 🗂 Journal Structure
 
+# AI Wednesday — [Date]
+
+## Overview
+One-paragraph summary of what happened in this session.
+
+## Topics
+- Topic or question explored
+- Tool, concept, or idea discussed
+
+## Demo / Experiment
+- Name — short description of what was tried or built
+
+## Projects Shared
+- Name — project title or idea
+
+## Discussions
+- Interesting question or debate
+- Insight or perspective shared
+
+## Resources
+- Link or tool shared
+- Article, repo, or reference
+
+## Photos
+- **Group photo**
+- **Session / demo photo**
+
+## Highlights
+- Key takeaway or learning from the session
+
+## Next Week
+- Planned topic or direction
+- Host
