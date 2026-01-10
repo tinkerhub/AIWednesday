@@ -1,0 +1,29 @@
+site_name: AI Wednesday
+site_url: https://tinkerhub.github.io/aiwednesday
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - blog
+  - search
+
+nav:
+  - index.md
+  - Journal:
+    - blog/index.md
