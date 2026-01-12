@@ -1,7 +1,7 @@
 ---
 title: 'AI Wednesday : 2026 Plan for AI Wednesday, 2025 Reflections and Project showcasing'
 date: 2026-01-10
-authors: [sebin]
+authors: [jasim]
 slug: ai-wednesday-01
 description: >
   Reflections on AI Wednesday 2025 and plans for growing community engagement, activities, and documentation in 2026.
