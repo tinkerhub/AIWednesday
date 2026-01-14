@@ -1,5 +1,5 @@
 ---
-title: 'AI Wednesday : 2026 Plan for AI Wednesday, 2025 Reflections and Project showcasing'
+title: 'AI Wednesday 01 : 2026 Plan for AI Wednesday, 2025 Reflections and Project showcasing'
 date: 2026-01-10
 authors: [sebin]
 slug: ai-wednesday-01
