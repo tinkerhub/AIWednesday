@@ -1,5 +1,5 @@
 ---
-title: "How to Document a Maker Thursday Session"
+title: "How to Document an AI Wednesday Session"
 date: 2026-01-10
 pin: true
 authors: [sebin]
