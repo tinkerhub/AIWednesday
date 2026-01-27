@@ -38,4 +38,7 @@ The session was mostly conceptual and discussion-driven. The goal was not to tea
 
 * A major takeaway was realizing that modern AI feels intelligent not because it understands, but because it has learned patterns from huge amounts of human language.
 
+## Next Week
+- Topic: VL-JEPA
+- Host: [Devadath](https://tinkerhub.org/@dev_devadath)
 
