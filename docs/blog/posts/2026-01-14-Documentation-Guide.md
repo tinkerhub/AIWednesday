@@ -120,7 +120,7 @@ Open `mkdocs.yml` and add your post to the `Journal` section under `nav`, in dat
 nav:
   - index.md
   - Journal:
-    - blog/index.md
+    - blog/posts/2026-01-14-Documentation-Guide.md
     # ... existing posts ...
     - blog/posts/YYYY-MM-DD-title.md
 ```

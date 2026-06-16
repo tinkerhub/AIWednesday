@@ -26,7 +26,6 @@ nav:
   - index.md
   - Journal:
     - blog/posts/2026-01-14-Documentation-Guide.md
-    - blog/index.md
     - blog/posts/2026-01-07-AI-Wednesday.md
     - blog/posts/2026-01-14-under-the-hood-of-LLM.md
     - blog/posts/2026-01-21-VL-JEPA.md
