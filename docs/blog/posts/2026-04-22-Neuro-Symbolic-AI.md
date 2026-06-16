@@ -1,11 +1,12 @@
 ---
-title: 'AI Wednesday 04 : Neuro-Symbolic AI'
+title: 'AI Wednesday 06 : Neuro-Symbolic AI'
 date: 2026-04-22
 authors: [nandhu]
-slug: ai-wednesday-04
 description: >
   Neuro-symbolic AI combines neural networks with symbolic reasoning to build more interpretable and intelligent systems.
 ---
+
+*By [Nandhu Krishnan A](https://tinkerhub.org/@nandhu44) · April 22, 2026*
 
 ## Overview
 

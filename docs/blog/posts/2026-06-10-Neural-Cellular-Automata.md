@@ -2,10 +2,11 @@
 title: 'AI Wednesday 10 : Neural Cellular Automata'
 date: 2026-06-10
 authors: [sebin]
-slug: ai-wednesday-10
 description: >
   Exploring Neural Cellular Automata — from Conway's Game of Life to emoji generation and real-world industry applications.
 ---
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · June 10, 2026*
 
 ## Overview
 

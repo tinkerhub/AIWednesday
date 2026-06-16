@@ -20,10 +20,20 @@ theme:
         name: Switch to system preference
 
 plugins:
-  - blog
   - search
 
 nav:
   - index.md
   - Journal:
     - blog/index.md
+    - blog/posts/2026-01-07-AI-Wednesday.md
+    - blog/posts/2026-01-14-under-the-hood-of-LLM.md
+    - blog/posts/2026-01-21-VL-JEPA.md
+    - blog/posts/2026-01-28-Introduction-to-Edge-AI.md
+    - blog/posts/2026-03-25-Exploring-Mixture-of-Experts.md
+    - blog/posts/2026-04-22-Neuro-Symbolic-AI.md
+    - blog/posts/2026-04-29-TITANS.md
+    - blog/posts/2026-05-13-LiteRT.md
+    - blog/posts/2026-05-27-World-Models.md
+    - blog/posts/2026-06-10-Neural-Cellular-Automata.md
+    - blog/posts/2026-01-14-Documentation-Guide.md

@@ -1,12 +1,12 @@
 ---
 title: "How to Document an AI Wednesday Session"
 date: 2026-01-10
-pin: true
 authors: [sebin]
-slug: documentation-guide
 description: >
   Guide on how to document an AI Wednesday journal entry.
 ---
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · January 10, 2026*
 
 AI Wednesday is a weekly, community driven gathering at TinkerSpace where people connect, share, and build.
 
@@ -31,7 +31,8 @@ These short journal entries are not meant to be detailed reports. They are light
 1. Set up MkDocs Material on your computer
 2. Run the site locally
 3. Add a new journal post using the template
-4. Push changes and raise a pull request
+4. List the post in the site navigation
+5. Push changes and raise a pull request
 
 ---
 
@@ -75,7 +76,7 @@ MkDocs will serve the site locally (usually on `http://127.0.0.1:8000/`)
 
 ### Create a new AI Wednesday journal entry
 
-The site journal is powered by the Material blog feature (you can see it live at [/blog/](https://github.com/tinkerhub/AIWednesday/tree/main/docs/blog))
+Each session is a Markdown post that is listed in the site's left-hand **Journal** navigation, ordered by date. The navigation order, the session number, and the author byline are all maintained by hand, so follow every step below.
 
 1. Create a new branch
 
@@ -91,22 +92,44 @@ Follow the existing pattern in the repository for where posts live.
 
 3. Add front matter
 
-Add metadata for your Journal post,
+Add metadata for your post. The session number (`XX` in the title) is the **next number in date order** — look at the latest post in `docs/blog/posts/` and add one.
 
 ```
 ---
 title: 'AI Wednesday XX : Name for the AI Wednesday'
 date: YYYY-MM-DD
-authors: [autor]
-slug: ai-wednesday-xx
+authors: [author]
 description: >
   A Small Description
 ---
 ```
 
-If this is your first time contributing, please add your details to the authors file before submitting your post.
+4. Add an author and date byline
 
-open the file `docs/blog/authors.yml` and add new entry
+The site does not render an author header automatically, so add a byline as the first line under the front matter. It links to your TinkerHub profile and is what readers see as the credit:
+
+```
+*By [Author Full Name](https://tinkerhub.org/@your-handle) · Month DD, YYYY*
+```
+
+5. List the post in the navigation
+
+Open `mkdocs.yml` and add your post to the `Journal` section under `nav`, in date order (newest at the bottom):
+
+```
+nav:
+  - index.md
+  - Journal:
+    - blog/index.md
+    # ... existing posts ...
+    - blog/posts/YYYY-MM-DD-title.md
+```
+
+If you skip this step, the post will not show up in the left navigation.
+
+6. Add yourself to the authors list (first-time contributors)
+
+If this is your first time contributing, add your details to `docs/blog/.authors.yml` so the author record stays complete:
 
 ```
   author-username:
@@ -114,10 +137,9 @@ open the file `docs/blog/authors.yml` and add new entry
     description: Author tag line
     avatar: https://avatars.githubusercontent.com/u/xxxxxxxx
     url: Tinkerhub App profile URL
-
 ```
 
-In the avatar section, replace the `xxxxxxx` to your github profile id.
+In the avatar section, replace the `xxxxxxx` with your GitHub profile id.
 
 ---
 
@@ -129,11 +151,12 @@ Use this template inside your post:
 ---
 title: 'AI Wednesday XX : Name for the AI Wednesday'
 date: YYYY-MM-DD
-authors: [autor]
-slug: ai-wednesday-xx
+authors: [author]
 description: >
   A Small Description
 ---
+
+*By [Author Full Name](https://tinkerhub.org/@your-handle) · Month DD, YYYY*
 
 ## Overview
 Write 3 to 6 lines on what happened this week. Mention the theme and the general vibe.
@@ -149,10 +172,10 @@ Write 3 to 6 lines on what happened this week. Mention the theme and the general
 
 ## Photos
 ### Group photo
-![Group photo](../assets/XX/group-photo.jpg)
+![Group photo](../assets/images/YYYY-MM-DD/group-photo.png)
 
 ### Activity photo
-![Activity photo](../assets/XX/activity-photo.jpg)
+![Activity photo](../assets/images/YYYY-MM-DD/activity-photo.png)
 
 ## Highlights
 - One key takeaway (learning, decision, win, or community moment)
@@ -165,8 +188,9 @@ Write 3 to 6 lines on what happened this week. Mention the theme and the general
 
 #### Notes for photos:
 
+- Store images in `docs/blog/assets/images/YYYY-MM-DD/` (create the folder for your session date).
+- Reference them with a relative path like `../assets/images/YYYY-MM-DD/group-photo.png`.
 - Keep filenames simple and consistent.
-- Store images in the same place the repo already uses for images.
 - Always add meaningful alt text.
 
 ---
@@ -175,7 +199,8 @@ Write 3 to 6 lines on what happened this week. Mention the theme and the general
 
 While mkdocs serve is running, open the local site and check:
 
-- The post appears in the journal list.
+- The post appears in the **Journal** list in the left sidebar, in the correct date order.
+- The author and date byline shows under the title.
 - Images load.
 - Headings look correct and spacing is clean.
 
@@ -198,6 +223,9 @@ On GitHub, open your fork and you should see a prompt to create a PR. GitHub’s
 PR checklist:
 
 - Title includes the date and session name.
+- Session number follows date order.
+- Post is listed in `mkdocs.yml` under Journal.
+- Author and date byline added.
 - Post follows the minimum structure.
 - Photos included or clearly marked pending.
 - Previewed locally.

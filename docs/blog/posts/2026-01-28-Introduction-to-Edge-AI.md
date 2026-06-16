@@ -1,11 +1,12 @@
 ---
-title: 'AI Wednesday 05 : Introduction to Edge AI'
+title: 'AI Wednesday 04 : Introduction to Edge AI'
 date: 2026-01-28
 authors: [sebin]
-slug: ai-wednesday-05
 description: >
   An introduction to Edge AI, with a hands-on ESP32 implementation and a discussion on model quantization.
 ---
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · January 28, 2026*
 
 ## Overview
 

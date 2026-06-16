@@ -1,11 +1,12 @@
 ---
-title: 'AI Wednesday 06 : Exploring Mixture-of-Experts (MoE)'
+title: 'AI Wednesday 05 : Exploring Mixture-of-Experts (MoE)'
 date: 2026-03-25
 authors: [sebin]
-slug: ai-wednesday-06
 description: >
   A session on how Mixture-of-Experts architectures work, DeepSeek's implementation, and related approaches like Chain of Experts and Gemma's effective parameters.
 ---
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · March 25, 2026*
 
 ## Overview
 

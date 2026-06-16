@@ -2,11 +2,11 @@
 title: 'AI Wednesday 02 : Under the Hood of Modern LLMs'
 date: 2026-01-14
 authors: [affan]
-slug: ai-wednesday-02
 description: >
   A beginner-friendly discussion on how modern AI language models work and why they behave the way they do.
 ---
 
+*By [Affan Sajid](https://tinkerhub.org/@affanbuilds) · January 14, 2026*
 
 ## Overview
 

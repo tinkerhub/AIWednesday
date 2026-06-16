@@ -2,10 +2,11 @@
 title: 'AI Wednesday 09 : World Models'
 date: 2026-05-27
 authors: [sebin]
-slug: ai-wednesday-09
 description: >
   An exploration of how world models work and a look at current implementations in AI research and applications.
 ---
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · May 27, 2026*
 
 ## Overview
 

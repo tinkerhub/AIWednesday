@@ -2,12 +2,13 @@
 title: 'AI Wednesday 01 : 2026 Plan for AI Wednesday, 2025 Reflections and Project showcasing'
 date: 2026-01-10
 authors: [sebin]
-slug: ai-wednesday-01
 description: >
   Reflections on AI Wednesday 2025 and plans for growing community engagement, activities, and documentation in 2026.
 ---
 
 # AI-Wednesday 01: Creating the 2026 plan for AI Wednesday while reflecting on the past year activities and improvement areas
+
+*By [Sebin Thomas](https://tinkerhub.org/@sebin) · January 10, 2026*
 
 ![2025 Statistics](../assets/images/01/AIWednesday-statistics.png)
 
